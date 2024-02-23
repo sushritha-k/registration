@@ -1,0 +1,71 @@
+<html>
+<script>
+function sub(){
+alert("Your form has been submitted");
+}
+</script>
+<style>
+#wa{
+background-image: url("https://img.freepik.com/premium-photo/teenager-student-girlyellow-pointing-finger-side_1368-40175.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+</style>
+<body>
+<div id="wa">
+<form style="margin-top: 20px; padding: 15px;">
+<h2 align="center">Student Registration Page</h2>
+<p>
+<label for="N1">First name:</label>
+<input id="N1" type="text">
+</p>
+<p>
+<label for="N2">Middle name:</label>
+<input id="N2" type="text">
+</p>
+<p>
+<label for="N3">Last name:</label>
+<input id="N3" type="text">
+</p>
+</br>
+<label for="dropCourse">Select course:</label>
+<select id="dropCourse">
+ <option value="BCA">BCA</option>
+ <option value="BBA">BBA</option>
+<option value="B.Tech">B.Tech</option>
+<option value="MBA">MBA</option>
+<option value="MCA">MCA</option>
+<option value="M.Tech">M.Tech</option>
+</select>
+<p>
+<label>Gender:</label>
+</br>
+<input type="radio" name="rd1">Male
+</br>
+<input type="radio" name="rd1">Female
+</br>
+<input type="radio" name="rd1">Other
+</p>
+<p>
+<label for="Ph">Phone:</label>
+<input type="text" value="+91" size="2">
+<input type="text">
+</p>
+<p>
+<label for="addr">Address:<label>
+</br>
+<input id="addr" type="text" size="55" style="height: 70px">
+</p>
+<p>
+<label for="mail">E-mail:</label>
+<input type="text" id="mail">
+</p>
+<p>
+<label for="pass">Password:</label>
+<input type="password" id="pass">
+</p>
+<input type="submit" align="center" value="Submit" onclick="sub()">
+</form>
+</div>
+</body>
+</html>
